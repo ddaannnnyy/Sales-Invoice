@@ -93,6 +93,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\db.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,7 +102,6 @@
     <Compile Include="Utilities\Database.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Pages\" />
   </ItemGroup>
   <PropertyGroup>
